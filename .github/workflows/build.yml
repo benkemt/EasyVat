@@ -24,8 +24,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        cache-dependency-path: ng-easy-vat/package-lock.json
     - name: npm install, build and test
-      working-directory: ./ng-easy-vat
+      working-directory: ng-easy-vat
       run: |
         npm install
         npm run build
