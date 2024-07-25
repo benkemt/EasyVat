@@ -46,7 +46,7 @@ jobs:
           npm install
           npm run build
       - name: mydebug
-        working-directory: ng-easy-vat/dist
+        working-directory: ng-easy-vat/dist/ng-easy-vat
         run: ls
       - name: Deploy
         id: Deploy
