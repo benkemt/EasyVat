@@ -1,0 +1,5 @@
+# Données personnelles : classeurs de notes de frais (dépôt public)
+*.xlsx
+
+# Documents de passation entre sessions (contexte interne)
+*.handoff
